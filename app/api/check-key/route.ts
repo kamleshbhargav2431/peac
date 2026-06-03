@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { checkAesKey, getLiveAesKey } from "../../../lib/peachify";
+import { checkAesKey, getLiveAesKey } from "@/lib/peachify";
 
 export async function GET() {
   try {
