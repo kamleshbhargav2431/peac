@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { fetchDecodedMedia } from "../../../../../lib/peachify";
+import { fetchDecodedMedia } from "@/lib/peachify";
 
 export async function GET(
   request: NextRequest,
